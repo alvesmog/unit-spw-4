@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class primeiro_exercicio {
+public class Primeiro_exercicio {
 	
 	public static void restoDivisaoInteiros() {
 		

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class terceiro_exercicio {
+public class Terceiro_exercicio {
 	
 	public static void algoritmoDeSwap() {
 		

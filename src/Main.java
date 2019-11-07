@@ -17,13 +17,13 @@ public class Main {
 		switch (opcao) {
 		
 			case 1:
-				primeiro_exercicio.restoDivisaoInteiros();
+				Primeiro_exercicio.restoDivisaoInteiros();
 				break;
 			case 2:
-				segundo_exercicio.maiorEntreDoisNumeros();
+				Segundo_exercicio.maiorEntreDoisNumeros();
 				break;
 			case 3:
-				terceiro_exercicio.algoritmoDeSwap();
+				Terceiro_exercicio.algoritmoDeSwap();
 				
 		}
 		

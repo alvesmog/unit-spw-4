@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class segundo_exercicio {
+public class Segundo_exercicio {
 	
 	public static void maiorEntreDoisNumeros() {
 		
