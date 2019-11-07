@@ -24,6 +24,8 @@ public class segundo_exercicio {
 			System.out.println("Os números são iguais!");
 		}
 		
+		s.close();
+		
 	}
 
 }

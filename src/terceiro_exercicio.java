@@ -28,6 +28,8 @@ public class terceiro_exercicio {
 		
 		System.out.println("Valores invertidos: " + n1 + ", " + n2);
 		
+		s.close();
+		
 	}
 
 }
