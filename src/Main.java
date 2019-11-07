@@ -10,6 +10,7 @@ public class Main {
 		
 		System.out.println("1 - Resto divisão inteiros");
 		System.out.println("2 - Maior entre dois números");
+		System.out.println("3 - Algoritmo de Swap");
 		
 		int opcao = s2.nextInt();
 		
@@ -21,6 +22,9 @@ public class Main {
 			case 2:
 				segundo_exercicio.maiorEntreDoisNumeros();
 				break;
+			case 3:
+				terceiro_exercicio.algoritmoDeSwap();
+				
 		}
 		
 	}
