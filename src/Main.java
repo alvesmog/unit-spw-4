@@ -12,7 +12,8 @@ public class Main {
 		System.out.println("2 - Maior entre dois números");
 		System.out.println("3 - Algoritmo de Swap");
 		System.out.println("4 - Testar se o número é ímpar e divisível por 3");
-		System.out.println("5 - Todos os números ímpares e divisíveis por 3 até 1*10^6");
+		System.out.println("5 - FOR - Todos os números ímpares e divisíveis por 3 até 1*10^6");
+		System.out.println("6 - WHILE -Todos os números ímpares e divisíveis por 3 até 1*10^6");
 		
 		int opcao = s2.nextInt();
 		
@@ -32,6 +33,9 @@ public class Main {
 				break;
 			case 5:
 				Quinto_exercicio.todosOsNumeros();
+				break;
+			case 6:
+				Sexto_exercicio.todosOsNumeros();
 				break;
 				
 		}
