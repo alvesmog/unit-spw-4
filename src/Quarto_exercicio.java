@@ -17,6 +17,8 @@ public class Quarto_exercicio {
 		} else {
 			System.out.println("Número inválido");
 		}
+		
+		s.close();
 	
 		
 	}
