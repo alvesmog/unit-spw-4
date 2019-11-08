@@ -11,6 +11,7 @@ public class Main {
 		System.out.println("1 - Resto divisão inteiros");
 		System.out.println("2 - Maior entre dois números");
 		System.out.println("3 - Algoritmo de Swap");
+		System.out.println("4 - Testar se o número é ímpar e divisível por 3");
 		
 		int opcao = s2.nextInt();
 		
@@ -24,6 +25,9 @@ public class Main {
 				break;
 			case 3:
 				Terceiro_exercicio.algoritmoDeSwap();
+				break;
+			case 4:
+				Quarto_exercicio.testaNumeroValido();
 				
 		}
 		
