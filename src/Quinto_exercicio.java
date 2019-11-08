@@ -7,6 +7,7 @@ public class Quinto_exercicio {
 		Scanner s = new Scanner(System.in);
 		
 		int n;
+		final int LIMITE = 1000000;
 		
 		System.out.println("Digite um número inteiro qualquer: ");
 		
@@ -14,10 +15,10 @@ public class Quinto_exercicio {
 		
 		System.out.println("Todos os números ímpares e múltiplos de 3 a partir de "+n+":");
 		
-		for(int i=n; i<=1000000; i++) {
+		for(; n<=LIMITE; n++) {
 			
-			if( (i%2!=0) & (i%3==0)) {
-				System.out.println(i);
+			if( (n%2!=0) & (n%3==0)) {
+				System.out.println(n);
 			} 
 		}
 				
