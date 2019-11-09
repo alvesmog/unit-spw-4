@@ -14,6 +14,8 @@ public class Setimo_exercicio {
 		
 		int elemento = s.nextInt();
 		
+		s.close();
+		
 		topo++;
 		elementos[topo] = elemento;
 		
@@ -21,7 +23,9 @@ public class Setimo_exercicio {
 			System.out.print(elementos[i]+", ");
 		}
 		
-		s.close();
+
+		
+		Menu.renderizar();
 		
 		
 	}
@@ -38,6 +42,8 @@ public class Setimo_exercicio {
 			System.out.print(elementos[i]+", ");
 		}
 		
+		Menu.renderizar();
+		
 	}
 	
 	public static void top() {
@@ -45,6 +51,8 @@ public class Setimo_exercicio {
 		int elementoNoTopo = elementos[elementos.length-1];
 		
 		System.out.println(elementoNoTopo + " é o elemento no topo da pilha.");
+		
+		Menu.renderizar();
 		
 	}
 
