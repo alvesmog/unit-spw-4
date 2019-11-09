@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class Setimo_exercicio {
+public class Setimo_exercicio  implements utils.Input {
 	
 	private static final int TAMANHO_PILHA = 5;
 	private static int topo = -1;
@@ -8,13 +6,9 @@ public class Setimo_exercicio {
 	
 	public static void push() {
 		
-		Scanner s = new Scanner(System.in);
-		
 		System.out.println("Digite um número inteiro para ser adicionado ao topo da pilha: ");
 		
 		int elemento = s.nextInt();
-		
-		s.close();
 		
 		topo++;
 		elementos[topo] = elemento;
@@ -22,8 +16,6 @@ public class Setimo_exercicio {
 		for(int i=0; i<elementos.length;i++) {
 			System.out.print(elementos[i]+", ");
 		}
-		
-
 		
 		Menu.renderizar();
 		

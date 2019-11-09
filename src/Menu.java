@@ -1,10 +1,7 @@
-import java.util.Scanner;
 
-public class Menu {
+public class Menu implements utils.Input {
 	
 	public static void renderizar() {
-		
-		Scanner s2 = new Scanner(System.in);
 		
 		System.out.println("\n Escolha o exercício: \n");
 		
@@ -18,9 +15,7 @@ public class Menu {
 		System.out.println("8 - Pilha -> Método POP");
 		System.out.println("9 - Pilha -> Exibir elemento no topo da pilha");
 		
-		int opcao = s2.nextInt();
-		
-		s2.close();
+		int opcao = s.nextInt();
 		
 		switch (opcao) {
 		
@@ -56,6 +51,4 @@ public class Menu {
 	
 	}
 	
-
-
 }
