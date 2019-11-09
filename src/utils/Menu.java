@@ -1,3 +1,11 @@
+package utils;
+import primeiroexercicio.Primeiro_exercicio;
+import quartoexercicio.Quarto_exercicio;
+import quintoexercicio.Quinto_exercicio;
+import segundoexercicio.Segundo_exercicio;
+import setimoexercicio.Setimo_exercicio;
+import sextoexercicio.Sexto_exercicio;
+import terceiroexercicio.Terceiro_exercicio;
 
 public class Menu implements utils.Input {
 	

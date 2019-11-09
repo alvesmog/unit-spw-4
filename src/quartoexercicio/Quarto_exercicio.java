@@ -1,3 +1,4 @@
+package quartoexercicio;
 import java.util.Scanner;
 
 public class Quarto_exercicio {

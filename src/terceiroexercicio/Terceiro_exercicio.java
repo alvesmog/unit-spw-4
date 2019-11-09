@@ -1,3 +1,4 @@
+package terceiroexercicio;
 import java.util.Scanner;
 
 public class Terceiro_exercicio {

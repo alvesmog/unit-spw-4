@@ -1,6 +1,7 @@
+package sextoexercicio;
 import java.util.Scanner;
 
-public class Quinto_exercicio {
+public class Sexto_exercicio {
 
 	public static void todosOsNumeros() {
 		
@@ -14,16 +15,17 @@ public class Quinto_exercicio {
 		n = s.nextInt();
 		
 		System.out.println("Todos os números ímpares e múltiplos de 3 a partir de "+n+":");
+	
 		
-		for(; n<=LIMITE; n++) {
-			
+		while(n<=LIMITE) {
 			if( (n%2!=0) & (n%3==0)) {
 				System.out.println(n);
 			} 
+			n++;
 		}
 				
 		s.close();
 		
 	}
-
+	
 }

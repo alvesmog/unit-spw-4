@@ -1,10 +1,14 @@
-public class Setimo_exercicio  implements utils.Input {
+package setimoexercicio;
+import utils.Menu;
+
+public class Pilha {
 	
 	private static final int TAMANHO_PILHA = 5;
 	private static int topo = -1;
 	private static int[] elementos = new int[TAMANHO_PILHA];
 	
-	public static void push() {
+	
+public static void push() {
 		
 		System.out.println("Digite um número inteiro para ser adicionado ao topo da pilha: ");
 		
@@ -18,8 +22,7 @@ public class Setimo_exercicio  implements utils.Input {
 		}
 		
 		Menu.renderizar();
-		
-		
+			
 	}
 	
 	public static void pop() {
@@ -45,6 +48,15 @@ public class Setimo_exercicio  implements utils.Input {
 		System.out.println(elementoNoTopo + " é o elemento no topo da pilha.");
 		
 		Menu.renderizar();
+		
+	}
+	
+	public static void isFull() {
+		
+		
+	}
+	
+	public static void isEmpty() {
 		
 	}
 

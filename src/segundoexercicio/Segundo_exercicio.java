@@ -1,3 +1,4 @@
+package segundoexercicio;
 import java.util.Scanner;
 
 public class Segundo_exercicio {
