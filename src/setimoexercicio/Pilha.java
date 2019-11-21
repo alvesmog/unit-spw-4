@@ -8,11 +8,7 @@ public class Pilha {
 	private static int[] elementos = new int[TAMANHO_PILHA];
 	
 	
-public static void push() {
-		
-		System.out.println("Digite um número inteiro para ser adicionado ao topo da pilha: ");
-		
-		int elemento = s.nextInt();
+public static void push(int elemento) {
 		
 		topo++;
 		elementos[topo] = elemento;
@@ -52,12 +48,23 @@ public static void push() {
 	}
 	
 	public static void isFull() {
-		
+		if(topo==4) {
+			System.out.println("Pilha cheia!");
+		}
 		
 	}
 	
 	public static void isEmpty() {
+		if(topo==-1) {
+			System.out.println("Pilha vazia!");
+		}
 		
+	}
+	
+	public static void exibir() {
+		for(int i=0; i<elementos.length;i++) {
+			System.out.print(elementos[i]+", ");
+		}
 	}
 
 }

@@ -19,9 +19,7 @@ public class Menu implements utils.Input {
 		System.out.println("4 - Testar se o número é ímpar e divisível por 3");
 		System.out.println("5 - FOR - Todos os números ímpares e divisíveis por 3 até 1*10^6");
 		System.out.println("6 - WHILE -Todos os números ímpares e divisíveis por 3 até 1*10^6");
-		System.out.println("7 - Pilha -> Método PUSH");
-		System.out.println("8 - Pilha -> Método POP");
-		System.out.println("9 - Pilha -> Exibir elemento no topo da pilha");
+		System.out.println("7 - Sétimo Exercício -> Pilha");
 		
 		int opcao = s.nextInt();
 		
@@ -46,15 +44,8 @@ public class Menu implements utils.Input {
 				Sexto_exercicio.todosOsNumeros();
 				break;
 			case 7:
-				Setimo_exercicio.push();
+				Setimo_exercicio.menuSetimoExercicio();
 				break;
-			case 8:
-				Setimo_exercicio.pop();
-				break;
-			case 9:
-				Setimo_exercicio.top();
-				break;
-				
 		}
 	
 	}
