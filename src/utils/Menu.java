@@ -1,11 +1,13 @@
 package utils;
 import primeiroexercicio.Primeiro_exercicio;
+
 import quartoexercicio.Quarto_exercicio;
 import quintoexercicio.Quinto_exercicio;
 import segundoexercicio.Segundo_exercicio;
 import setimoexercicio.Setimo_exercicio;
 import sextoexercicio.Sexto_exercicio;
 import terceiroexercicio.Terceiro_exercicio;
+import oitavoexercicio.Bubble_sort;
 
 public class Menu implements utils.Input {
 	
@@ -20,6 +22,7 @@ public class Menu implements utils.Input {
 		System.out.println("5 - FOR - Todos os números ímpares e divisíveis por 3 até 1*10^6");
 		System.out.println("6 - WHILE -Todos os números ímpares e divisíveis por 3 até 1*10^6");
 		System.out.println("7 - Sétimo Exercício -> Pilha");
+		System.out.println("8 - Oitavo Exercício -> Bubble Sort");
 		
 		int opcao = s.nextInt();
 		
@@ -45,6 +48,9 @@ public class Menu implements utils.Input {
 				break;
 			case 7:
 				Setimo_exercicio.menuSetimoExercicio();
+				break;
+			case 8:
+				Bubble_sort.BubbleSort();
 				break;
 		}
 	
