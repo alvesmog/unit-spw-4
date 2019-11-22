@@ -14,13 +14,12 @@ public class Bubble_sort implements utils.Input {
 
 		for (int i = 0; i < elementos.length; i++) {
 
-			if (i >= elementos.length) {
-				System.out.println("ok");
-			} else {
-				if (elementos[i] > elementos[i + 1]) {
-					int aux = elementos[i + 1];
-					elementos[i + 1] = elementos[i];
-					elementos[i] = aux;
+			for (int j = 0; j < elementos.length-1; j++) {
+
+				if (elementos[j] > elementos[j + 1]) {
+					int aux = elementos[j + 1];
+					elementos[j + 1] = elementos[j];
+					elementos[j] = aux;
 				}
 
 			}
