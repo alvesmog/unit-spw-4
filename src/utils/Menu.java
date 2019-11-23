@@ -7,6 +7,7 @@ import segundoexercicio.Segundo_exercicio;
 import setimoexercicio.Setimo_exercicio;
 import sextoexercicio.Sexto_exercicio;
 import terceiroexercicio.Terceiro_exercicio;
+import decimoexercicio.Decimo_exercicio;
 import nonoexercicio.Nono_exercicio;
 import oitavoexercicio.Bubble_sort;
 
@@ -25,6 +26,7 @@ public class Menu implements utils.Input {
 		System.out.println("7 - Sétimo Exercício -> Pilha");
 		System.out.println("8 - Oitavo Exercício -> Bubble Sort");
 		System.out.println("9 - Nono Exercício -> Bubble Sort de vetores encadeados");
+		System.out.println("10 - Décimo Exercício -> Gerar vetor aleatório e ordenar por Insertion Sort");
 		
 		int opcao = s.nextInt();
 		
@@ -56,6 +58,9 @@ public class Menu implements utils.Input {
 				break;
 			case 9:
 				Nono_exercicio.CalcularMedia();
+				break;
+			case 10:
+				Decimo_exercicio.ordenarAleatorios();
 				break;
 		}
 	
