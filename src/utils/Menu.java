@@ -24,7 +24,7 @@ public class Menu implements utils.Input {
 		System.out.println("6 - WHILE -Todos os números ímpares e divisíveis por 3 até 1*10^6");
 		System.out.println("7 - Sétimo Exercício -> Pilha");
 		System.out.println("8 - Oitavo Exercício -> Bubble Sort");
-		System.out.println("9 - Nono Exercício -> Bubble Sort matriz de Arrays");
+		System.out.println("9 - Nono Exercício -> Bubble Sort de vetores encadeados");
 		
 		int opcao = s.nextInt();
 		
