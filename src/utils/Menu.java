@@ -15,6 +15,7 @@ public class Menu implements utils.Input {
 	
 	public static void renderizar() {
 		
+		System.out.println("( - A L G O R I T M O S - )");
 		System.out.println("\n Escolha o exercício: \n");
 		
 		System.out.println("1 - Resto divisão inteiros");
